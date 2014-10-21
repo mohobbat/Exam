@@ -1,0 +1,9 @@
+C:\Users\PC21\Desktop\13-1014\Shop\Shop\bin\Debug\Shop.exe.config
+C:\Users\PC21\Desktop\13-1014\Shop\Shop\bin\Debug\Shop.exe
+C:\Users\PC21\Desktop\13-1014\Shop\Shop\bin\Debug\Shop.pdb
+C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.csprojResolveAssemblyReference.cache
+C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.ShopUI.resources
+C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.Properties.Resources.resources
+C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.csproj.GenerateResource.Cache
+C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.exe
+C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.pdb
