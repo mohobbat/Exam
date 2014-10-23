@@ -13,16 +13,25 @@ namespace Shop.BLL
         ProductGetway aProductGetway=new ProductGetway();
         public string Save(Product aProduct)
         {
-
+             if (aProduct.Code.Length < 3 || aProduct.Code.Length > 3)
+            {
+                return "A code length must be three character:";
+            }
+            if (aProduct.Name.Length<5 || aProduct.Name.Length >10)
+            {
+                return "A name length must be 5 to 10 charcter:";
+            }
             
-                if (!HasThisCodeValid(aProduct.Code))
-                {
-                    return aProductGetway.Save(aProduct);
-                }
-
-
-                return "Code allready exist";
-            
+             if (HasThisCodeValid(aProduct.Code))
+             {
+                return "This code already exist:";
+       
+             }
+            if (HasThisNameValid(aProduct.Name))
+            {
+                return "This name already exist:";
+            }
+            return aProductGetway.Save(aProduct);
             
 
         }
@@ -35,6 +44,16 @@ namespace Shop.BLL
         public bool HasThisNameValid(string name)
         {
             return aProductGetway.HasThisNameValid(name);
+        }
+
+        public List<Product> GetTottalProductInfo()
+        {
+            return aProductGetway.GetTottalProductInfo();
+        }
+
+        public int GetTotalQuantiy()
+        {
+            return aProductGetway.GetTotalQuantiy();
         }
     }
 }
