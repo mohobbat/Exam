@@ -7,3 +7,6 @@ C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.Properties.Resources.reso
 C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.csproj.GenerateResource.Cache
 C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.exe
 C:\Users\PC21\Desktop\13-1014\Shop\Shop\obj\Debug\Shop.pdb
+C:\Users\MILON\Desktop\Exam\ShopExam\Shop\bin\Debug\Shop.exe.config
+C:\Users\MILON\Desktop\Exam\ShopExam\Shop\obj\Debug\Shop.exe
+C:\Users\MILON\Desktop\Exam\ShopExam\Shop\obj\Debug\Shop.pdb
